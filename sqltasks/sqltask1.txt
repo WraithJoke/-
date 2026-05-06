@@ -1,0 +1,21 @@
+--#SELECT * FROM clients
+--#SELECT * FROM doctors
+--#SELECT * FROM uslugi
+--#SELECT clientname, age FROM clients
+--#SELECT doctorname, staj FROM doctors
+
+--#SELECT * FROM clients WHERE age >= 18
+--#SELECT * FROM clients WHERE gender = 'м'
+--#SELECT * FROM clients WHERE age >= 25 AND gender = 'ж'
+--#SELECT * FROM clients WHERE age < 30 AND age > 18
+--#SELECT * FROM doctors WHERE staj >= 10
+--#SELECT * FROM doctors WHERE dolgnost = 'Терапевт'
+--#SELECT * FROM doctors WHERE staj > 15 AND dolgnost = 'Хирург'
+--#SELECT * FROM doctors WHERE obrazovanie = 'Высшее' AND staj >= 20
+--#SELECT * FROM uslugi WHERE price < 2000
+--#SELECT * FROM uslugi WHERE price >= 2500
+--#SELECT * FROM uslugi WHERE price BETWEEN 1000 AND 3000
+--#SELECT * FROM uslugi WHERE usluganame = 'Приём терапевта' AND price < 2000
+--#SELECT * FROM clients WHERE clientname LIKE 'А%' AND age >= 20
+--#SELECT * FROM doctors WHERE dolgnost LIKE '%лог' AND staj > 5
+--#SELECT * FROM uslugi WHERE price > 3000 OR price < 1000
